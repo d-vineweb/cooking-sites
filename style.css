@@ -243,7 +243,7 @@
   position: relative;
   overflow: hidden;
   background-color: #000;
-  background-image: url("./Images/pizza.jpg");
+  background-image: url("./Images/pastries.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -252,16 +252,16 @@
 }
 
 .image:nth-child(2n) {
-  background-image: url("./Images/applepie.jpg");
+  background-image: url("./Images/smoothies.png");
 }
 .image:nth-child(3n) {
-  background-image: url("./Images/bread.jpg");
+  background-image: url("./Images/smoothies.png");
 }
 .image:nth-child(4n) {
-  background-image: url("./Images/cookies.jpg");
+  background-image: url("./Images/grills.png");
 }
 
-.image span {
+.image span a {
   position: relative;
   z-index: 1;
 }
@@ -304,6 +304,30 @@
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #d5d0d0;
+  text-shadow: #d76666;
+  text-decoration: none;
+}
+
+span a {
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ad7474;
+  text-shadow: #111;
+  text-decoration: none;
+}
+span a:hover {
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #dfc7c7;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+.f-v {
+  margin-top: 3rem;
 }
 
 
